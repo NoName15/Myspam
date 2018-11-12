@@ -26,23 +26,7 @@ function timerFunc() {
     });
 }
 
-var timer = setTimeout(timerFunc, 1000);
 
-client.on('ready', async() => {
-let server = "511633362331631621"; // ايدي السررفر
-let channel = "511639593511026698";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#daily')
-    },8.64e+7);
-})
-
-client.on('ready', async() => {
-var server = "511633362331631621"; // ايدي السررفر
-var channel = "511639593511026698";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#rep <@480407581085532180>')
-    },8.64e+7);
-})
 const devs = ['480407581085532180'];
 
 
